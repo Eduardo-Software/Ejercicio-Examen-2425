@@ -5,7 +5,7 @@ RUTA_DATOS = "../data/mundial_motofp.csv"
 
 def main():
     """
-    Función principal que ejecuta todos los tests del examen.
+    Función principal que ejecuta todos los tests del Examen.
     """
     print("Cargando datos desde " + RUTA_DATOS)
     carreras = fp.lee_carreras(RUTA_DATOS)
